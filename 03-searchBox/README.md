@@ -1,6 +1,6 @@
 # Search Box
 
-## Code:
+## Code: Dynamic Search with `onChange` Event
 
 ```js
 /* eslint-disable no-unused-vars */
