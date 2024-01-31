@@ -4,7 +4,6 @@ export default function Counter() {
   let countRef = useRef(0);
 
   function handleClick() {
-    // This doesn't re-render the component!
     countRef.current = countRef.current + 1;
   }
 
