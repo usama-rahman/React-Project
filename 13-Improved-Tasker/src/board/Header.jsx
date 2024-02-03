@@ -1,10 +1,10 @@
 /* eslint-disable no-unused-vars */
 /* eslint-disable react/prop-types */
 
-import { useContext, useState } from "react";
-import { TaskContext } from "../../context";
+import { useContext, useState } from 'react';
+import { TaskContext } from '../../context';
 
-const Header = () => {
+const Header = ({ setShowModal }) => {
   return (
     <>
       <div className="mb-14 items-center justify-between sm:flex">
@@ -47,7 +47,7 @@ const Header = () => {
             </div>
           </form>
           <button
-            // onClick={}
+            onClick={() => setShowModal(true)}
             className="rounded-md bg-blue-500 px-3.5 py-2.5 text-sm font-semibold"
           >
             Add Task

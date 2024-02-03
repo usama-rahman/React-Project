@@ -7,7 +7,7 @@ import { TaskContext } from '../../context';
 import FaStarDark from '../ui/FaStarDark';
 import FaStarLight from '../ui/FaStarLight';
 
-const Trow = () => {
+const Trow = ({ tasks }) => {
   return (
     <>
       {tasks.map((task) => (
